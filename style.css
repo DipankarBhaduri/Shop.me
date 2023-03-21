@@ -1,0 +1,92 @@
+  /* By default padding margin making zero */
+*{
+    padding: 0 ;
+    margin: 0 ;
+    border: 0;
+    background-color:#f8efef ;
+}
+
+ /* CSS for only header  */
+.main-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img  {
+    width: 100px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+li {
+    list-style: none;
+    color: #8791bf;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.last {
+    margin-right: 100px;
+}
+
+/* CSS for body  */
+
+.great{
+    display: flex;
+    gap: 400px;
+    justify-content: space-between;
+}
+
+.para{
+    margin-left: 70px;
+}
+
+.head {
+    margin-top: 100px;
+    color: #3c52b4;
+    font-family: 'poppins' , sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.content {
+    font-family: 'poppins' , sans-serif;
+    font-weight: 200;
+    font-size: small;
+    margin-bottom: 20px;
+    
+}
+
+.shopNow {
+    padding: 5px 15px;
+    background-color: #384fad;
+    color: white;
+    border-radius: 5px;
+}
+
+.shopNow:hover {
+    background-color: yellowgreen;
+    color: black;
+    border: 2px solid rgb(3, 2, 2);
+}
+
+.image img {
+    margin-right: 100px;
+    width: 350px;
+    margin-bottom: 100px;
+}
+
+a:active{
+    text-underline-position: below;
+}
+
+
+button{
+    margin-top: 50px;
+}
+
+.listed a li:hover {
+    color: #2842b7;
+}
